@@ -166,6 +166,7 @@ div.searchlight-results-wrapper {
 	color: #b29d4b;
 	font-weight: 400;
 }
+
 /*cart-text:: Controls the way the text on the mini shopping cart displays. The mini-shopping cart is usually located in the header.*/ 
 .cart-text {
 	font-size: 12px;
@@ -760,7 +761,7 @@ ul.menu-links {
 	list-style: none;
 	text-align: right;
 	position: absolute;
-	right: 0;
+	right: 20px;
 	top: 15px;
 }
 ul.menu-links li {
@@ -1055,6 +1056,7 @@ ul.frame-links li {
 	padding-left: 10px;
 	border-bottom: 1px solid #383733;
 	margin-bottom: 35px;
+
 }
 .hs-item {
 	width: auto;
@@ -1142,7 +1144,7 @@ ul.frame-links li {
 }
 
 /*	listing_0.html Template
-	--------------------------	*/
+	-----------------------	*/
 #listing0 h1 {
     font-size: 18px;
 }
@@ -1428,6 +1430,18 @@ body {
 }
 #cart {
 	right: 2%;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+
+section {
+	padding: 0 15px;
+}
+.footer {
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 }
